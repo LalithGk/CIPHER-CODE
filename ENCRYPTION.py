@@ -19,7 +19,7 @@ def encript(code,steps):
     
     print(finalcode) 
     
-def decript(code,steps):
+def decrypt(code,steps):
     code1 = code.lower()
     morsecode = []
     finalcode = ""
@@ -39,3 +39,4 @@ def decript(code,steps):
     
     print(finalcode)
 encript("z i", 2)
+decrypt("a", 1)
